@@ -504,25 +504,47 @@
                             </use>
                         </svg>
             </button>
-            <form action="" class="modal-form">
+            <form action="#" class="modal-form">
                 <p class="modal-form-head">
                     Оставьте свои данные, мы вам перезвоним
                 </p>
                 <label class="modal-form-field">Имя
+                    <span class="modal-form-wrapper">
                     <input type="text" class="modal-form-input" name="user-name">
+                    <svg class="modal-form-icon" width="12" height="12">
+                        <use href="./images/sprite.svg#icon-form-user">
+                        </use>
+                    </svg>
+                    </span>
                 </label>
                 
                 <label class="modal-form-field">Телефон
+                    <span class="modal-form-wrapper">
                     <input type="tel" class="modal-form-input" name="user-tel">
+                    <svg class="modal-form-icon" width="13" height="13">
+                        <use href="./images/sprite.svg#icon-form-tel">
+                        </use>
+                    </svg>
+                </span>
                 </label>
 
                 <label class="modal-form-field">Почта
+                    <span class="modal-form-wrapper">
                     <input type="mail" class="modal-form-input" name="user-mail">
+                    <svg class="modal-form-icon" width="15" height="12">
+                        <use href="./images/sprite.svg#icon-form-mail">
+                        </use>
+                    </svg>
+                    </span>
                 </label>
 
                 <label class="modal-form-field">Комментарий
                     <textarea class="modal-form-message" name="user-message"></textarea>
                 </label>
+
+                <button class="modal-form-button" type="button">
+                    Отправить
+                </button>
             </form>
 
         </div>
