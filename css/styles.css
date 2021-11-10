@@ -321,7 +321,7 @@ cursor: pointer;
 
 .hero-icon-list {
     flex-basis: calc(100% / 4 - 30px);
-    /* margin-left: 30px; */
+    
 }
 
 
@@ -379,8 +379,7 @@ text-transform: uppercase;
 color: #ffffff;
 background-color: rgba(47, 48, 58, 0.8);
 justify-content: center;
-/* transform: translateY(100%);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
 }
 
 /* .activity-photo:hover .activity-text {
@@ -1132,6 +1131,11 @@ background: #2F303A;
 outline: none;
 }
 
+.modal-form-mail:focus {
+    outline: none;
+    border-color: var(--header-color);
+}
+
 
 
 .subscribe-form-button {
@@ -1159,6 +1163,7 @@ border-radius: 4px;
 
 
 }
+
 
 .submit-icon {
 margin-left: 10px;
